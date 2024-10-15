@@ -21,6 +21,7 @@ const LoginDetails = ({route}) => {
   const [errorEmail, setErrorEmail] = useState(false);
 
   const generateOTP = () => {
+
     var myotp = parseInt(Math.random() * 8999) + 1000;
     console.log(myotp);
     setOtp(myotp);
