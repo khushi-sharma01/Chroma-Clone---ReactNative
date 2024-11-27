@@ -8,7 +8,7 @@ export default function RootReducer(state=initialState,action)
     {
         case "ADD_PRODUCT":
             state.mycart[action.payload[0]]=action.payload[1]
-            console.log("MYYYYSTATE:",state.mycart)
+         
             return {mycart:state.mycart,user:state.user}                     
 
         case "EDIT_PRODUCT":
