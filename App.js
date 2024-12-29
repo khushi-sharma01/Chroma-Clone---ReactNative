@@ -10,6 +10,7 @@ function App(props) {
   return (
   <Provider store={store}>
 <RootNavigator/>
+   
 </Provider>
 
  
